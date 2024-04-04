@@ -1,0 +1,7 @@
+export const bio = {
+    "aboutBio": [
+        "I devise strategies that Fortune 500 companies rely on to address their information and communications technology (ICT) needs. These include tactics for unexpected business changes such as mergers, acquisitions, divestiture– whether within the enterprise or its' vendors–and with disputes. I also perform transactional and regulatory work, customized to reflect the unique and often complex needs and interests of each business.",
+        "This year, I developed short-term and long-term ICT strategies for a Global Fortune 150 retailer to address unexpected compliance obligations from a previous acquisition. I educated the company on possible risks while providing multiple paths to reach their goal.",
+        "Most companies do not consider ICT impacts during a merger or acquisition and divestiture (MAD) event, and their ICT professionals are typically unaware until the event has occurred; I have coordinated successful strategies for companies whether I was brought in before or after a MAD event. Over the past decade, multiple Fortune 500 health care companies relied on my advice post-acquisition or divestiture to consolidate and improve contracts for the expanded organization; others for vendor MAD events.",
+    ]
+};

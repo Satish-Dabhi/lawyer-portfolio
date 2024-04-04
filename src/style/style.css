@@ -1,0 +1,284 @@
+body {
+  background: var(--primary-bg-color);
+}
+
+.section-title {
+  padding-top: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero-banner .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-banner .banner-text {
+  text-align: center;
+}
+
+.hero-banner .banner-text .responsive-headline {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 6rem;
+}
+
+.hero-banner .banner-text h2 {
+  color: #fff;
+}
+
+.hero-banner .banner-text h3 span,
+.hero-banner .banner-text h3 a {
+  color: rgb(255, 255, 255);
+}
+
+.hero-banner .banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #2f2d2e;
+  border-color: rgba(150, 150, 150, 0.1);
+}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+#about {
+  background: var(--primary-bg-color);
+  padding-top: 120px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+#about .left-section{
+ border-right: 1px solid #ccc;
+}
+
+#about a,
+#about a:visited {
+  color: #fff;
+}
+
+#about a:hover,
+#about a:focus {
+  color: #0762f9;
+}
+
+#about h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+#about p {
+  line-height: 30px;
+  color: #ccc;
+}
+
+#about .contact-details {
+  width: 41.66667%;
+}
+
+#about .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+
+#about .main-col {
+  padding-right: 5%;
+}
+
+#about .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+
+#about .download .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+
+#about .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+#about .profile-pic {
+  position: relative;
+  width: 155px;
+  height: 155px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#ourClients {
+  background: #fff;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+#ourClients .row{
+  justify-content: center;
+}
+
+#ourClients .client-logo{
+  padding: 2rem;
+}
+
+.CommonListItem,
+.work {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.testimonial {
+  background-color: var(--primary-bg-color);
+}
+
+.testimonial .carousel-inner .carousel-item .row {
+  padding: 5% 10%;
+}
+
+.testimonial .profile-pic {
+  position: relative;
+  width: 155px;
+  height: 155px;
+  border: 2px solid white;
+}
+
+.testimonial p {
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+#footer {
+  background-color: var(--header-bg-color);
+  padding-bottom: 70px;
+}
+
+footer {
+  padding-top: 48px;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer a,
+footer a:visited {
+  color: var(--primary-text-color);
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--primary-text-active-color);
+}
+
+footer .mikeySocial {
+  justify-content: center;
+  margin: 18px 0 30px 0;
+  padding: 0;
+  font-size: 100px;
+}
+
+footer .mikeySocial li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #f06000;
+
+  padding: 20px !important;
+}
+
+footer .mikeySocial li:first-child {
+  margin-left: 0;
+}
+
+/* Go To Top Button */
+#go-top {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -30px;
+}
+
+#go-top a {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #525252;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
+  border-radius: 100%;
+}
+
+#go-top a:hover {
+  background-color: #0f9095;
+}
+
+.social .btn:first-child {
+  margin-right: 30px;
+}
+
+.social .btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.social .btn i {
+  margin-right: 15px;
+}
+
+.project-btn {
+  background-color: #1abc9c !important;
+}
+
+.github-btn {
+  background-color: #34495e !important;
+}
+
+.hero-banner {
+  background: url("../images/lawyer-hero-banner.jpg");
+  height: 600px;
+  background-size: cover;
+  opacity: 0.99;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 40px;
+}
+
+ul.qualifications li {
+  list-style: square;
+}
+
+#contactinfo .address .contact-icon {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  #about .left-section{
+    border: 0;
+   }
+}
