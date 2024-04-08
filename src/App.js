@@ -8,6 +8,10 @@ import Header from "./section/Header";
 import OurClients from "./section/OurClients";
 import './style/default.css';
 import './style/style.css';
+import "slick-carousel/slick/slick.css";
+
+import "slick-carousel/slick/slick-theme.css";
+import AboutUs from './section/AboutUs';
 
 const App = () => {
   return (
@@ -16,6 +20,7 @@ const App = () => {
       <HeroBanner />
       <About />
       <OurClients />
+      <AboutUs />
       <Testimonial />
       <Contact />
       <Footer />

@@ -18,14 +18,17 @@ const About = () => {
               src={require("../images/lawyer-hero-banner.jpg")}
               alt="profic pic"
             />
-            <h2 className="m-3">John Smith</h2>
+            <h2 className="m-3">{bio.name}</h2>
           </div>
-          <div className="nine columns main-col">
-            {bio.aboutBio.map((item) => (
+          <div className="nine columns main-col text-white">
+            <h2 >Our Services</h2>
+            <ul>
+            {bio.services.map((item) => (
               <>
-                <p>{item}</p>
+                <li>{item}</li>
               </>
             ))}
+            </ul>
           </div>
         </div>
       </Fade>

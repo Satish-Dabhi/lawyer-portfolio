@@ -49,7 +49,7 @@ const Contact = () => {
                       frameBorder="0"
                       style={{ border: 0 }}
                       src={
-                        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10934.079600027973!2d72.55718162835903!3d23.023484021581822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1712123608639!5m2!1sen!2sin"
+                        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.187170597227!2d72.8123864811806!3d21.18472234713233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f69e1479ca9%3A0x33f489976a86bc9c!2sSiddhashila%20Apartment!5e0!3m2!1sen!2sin!4v1712559937325!5m2!1sen!2sin"
                       }
                       allowFullScreen=""
                       aria-hidden="false"
@@ -67,3 +67,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

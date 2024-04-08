@@ -2,6 +2,8 @@ import React from "react";
 import Fade from "react-reveal";
 import Typewriter from 'typewriter-effect';
 import '../style/header.css';
+import { bio } from "../data/info";
+import { Button, Link } from "react-scroll";
 
 const HeroBanner = () => {
 
@@ -13,18 +15,21 @@ const HeroBanner = () => {
                 <div className="row banner">
                     <div className="banner-text">
                         <Fade bottom>
-                            <h1 className="responsive-headline">John Smith</h1>
+                            <h1 className="responsive-headline">{bio.name}</h1>
                         </Fade>
                         <Fade bottom duration={1800}>
                             <h2>
                                 <Typewriter
                                     options={{
-                                        strings: ['Corporate Law Specialist', 'Mergers and Acquisitions Expert', 'Legal Counsel'],
+                                        strings: bio.qualification,
                                         autoStart: true,
                                         loop: true,
                                     }} />
                             </h2>
                         </Fade>
+                        <button type="button" class="portfolio-btn mt-5">
+                            <Link to="contactinfo" spy={true} smooth={true} offset={10} duration={400}>Book Your Consultation</Link>
+                        </button>
                     </div>
                 </div>
             </div>
