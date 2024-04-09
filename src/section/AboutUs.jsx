@@ -16,6 +16,7 @@ const AboutUs = () => {
             <div className="text-center">
               <h1 className="section-title pb-4 text-white">About Us</h1>
             </div>
+            <div className="columns">
             <ul>
               {bio.aboutBio.map((item) => (
                 <>
@@ -33,6 +34,7 @@ const AboutUs = () => {
                 </>
               ))}
             </ol>
+            </div>
           </div>
         </Fade>
       </div>
