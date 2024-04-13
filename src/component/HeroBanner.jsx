@@ -1,9 +1,9 @@
 import React from "react";
 import Fade from "react-reveal";
+import { Link } from "react-scroll";
 import Typewriter from 'typewriter-effect';
-import '../style/header.css';
 import { bio } from "../data/info";
-import { Button, Link } from "react-scroll";
+import '../style/header.css';
 
 const HeroBanner = () => {
 

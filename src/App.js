@@ -6,12 +6,12 @@ import Contact from "./section/Contact";
 import Footer from './section/Footer';
 import Header from "./section/Header";
 import OurClients from "./section/OurClients";
+import AboutUs from './section/AboutUs';
+import PortFolio from './section/PortFolio';
 import './style/default.css';
 import './style/style.css';
 import "slick-carousel/slick/slick.css";
-
 import "slick-carousel/slick/slick-theme.css";
-import AboutUs from './section/AboutUs';
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
       <About />
       <OurClients />
       <AboutUs />
+      <PortFolio />
       <Testimonial />
       <Contact />
       <Footer />

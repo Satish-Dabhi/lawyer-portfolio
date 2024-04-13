@@ -1,7 +1,6 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
-import { testimonialsData } from "../data/testimonials";
 import Slider from "react-slick";
+import { testimonialsData } from "../data/testimonials";
 
 const Testimonial = () => {
 

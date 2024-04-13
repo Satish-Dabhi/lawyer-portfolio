@@ -35,3 +35,11 @@ export const contactDetails = {
         address: "Milipitas Blvd, Milpitasn CA 95035"
     },
 };
+
+export const portfolioImages = [
+    { id: 1, name: 'Kerala Article', image: 'kerala-article.png' },
+    { id: 2, name: 'Private Pressure Article', image: 'private-pressure-article.png' },
+    { id: 3, name: 'Snj Article', image: 'snj-article.webp' },
+    { id: 3, name: 'Veteran Article', image: 'veteran-article.png' },
+    { id: 4, name: 'Alm Article', image: 'alm-article.jpg' },
+  ];

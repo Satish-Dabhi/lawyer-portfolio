@@ -40,7 +40,7 @@ function Responsive() {
     ]
   };
   return (
-    <section id="ourClients" className="text-center">
+    <section id="ourClients" className="text-center card-slider">
       <h1 className="section-title pb-4">Our Clients</h1>
       <Fade duration={500}>
         <div className="slider-container">

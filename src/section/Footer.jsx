@@ -1,14 +1,12 @@
 import React from "react";
-import Fade from "react-reveal";
 import { bio, contactDetails } from "../data/info";
-import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <section id="footer" className="text-center">
-      <footer class="text-center text-lg-start bg-body-tertiary text-muted text-white">
+    <section id="footer">
+      <footer class="text-lg-start bg-body-tertiary text-muted text-white">
         <section class="">
-          <div class="container text-center text-md-start mt-5">
+          <div class="container text-md-start mt-5">
             <div class="row mt-3">
               <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4 h4">

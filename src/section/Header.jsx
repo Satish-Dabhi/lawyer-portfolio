@@ -35,6 +35,9 @@ const Header = () => {
                 <Link to="aboutUs" spy={true} smooth={true} offset={10} duration={400}>About Us</Link>
               </li>
               <li>
+                <Link to="portfolio" spy={true} smooth={true} offset={10} duration={400}>Portfolio</Link>
+              </li>
+              <li>
                 <Link to="testimonial" spy={true} smooth={true} offset={10} duration={400}>Testimonials</Link>
               </li>
               <li>
