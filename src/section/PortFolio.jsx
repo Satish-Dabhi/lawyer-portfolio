@@ -59,7 +59,7 @@ function PortFolio() {
                 <img
                   src={require(`../images/portfolio/${item.image}`)}
                   alt={item.name}
-                  style={{ maxWidth: "100%" }}
+                  style={{ maxWidth: "100%", cursor: 'pointer' }}
                   className="client-logo hover-zoom"
                   onClick={() => {
                     setModalShow(true);
