@@ -10,7 +10,8 @@ function PortFolio() {
 
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,

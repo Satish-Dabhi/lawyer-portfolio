@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Hamburger from "../component/icons/Hamburger";
 import '../style/header.css';
-import lawyerLogo from '../images/lawyer-logo.svg';
+import lawyerLogo from '../images/in-logo.svg';
 
 
 const Header = () => {

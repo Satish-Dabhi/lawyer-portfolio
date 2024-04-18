@@ -3,11 +3,11 @@ import Slider from "react-slick";
 import { ourClients } from "../data/our-clients";
 import { Fade } from "react-reveal";
 
-
 function Responsive() {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
