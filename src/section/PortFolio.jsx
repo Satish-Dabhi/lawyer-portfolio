@@ -6,7 +6,7 @@ import VCenterModal from "../component/VCenterModal";
 
 function PortFolio() {
   const [modalShow, setModalShow] = useState(false);
-  const [modalContent, setModalContent] = useState({});
+  const [currentImage, setCurrentImage] = useState({});
 
   var settings = {
     dots: true,
@@ -43,13 +43,38 @@ function PortFolio() {
       }
     ]
   };
+
+  var portfolioModalSliderSettings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: currentImage
+  };
+
   return (
     <section id="portfolio" className="text-center card-slider">
       <VCenterModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        data={modalContent}
-      />
+      >
+        <Slider {...portfolioModalSliderSettings}>
+          {portfolioImages
+            .map((item, index) => (
+              <div className="justify-content-center d-flex"
+              >
+                <img
+                  src={require(`../images/portfolio/${item.image}`)}
+                  alt={item.name}
+                  style={{ maxWidth: "100%", cursor: 'pointer' }}
+                  className="client-logo hover-zoom"
+                />
+              </div>
+            ))}
+        </Slider>
+      </VCenterModal>
       <h1 className="section-title pb-4">Portfolio</h1>
       <Fade duration={500}>
         <div className="slider-container">
@@ -64,16 +89,7 @@ function PortFolio() {
                   className="client-logo hover-zoom"
                   onClick={() => {
                     setModalShow(true);
-                    const content = <img
-                      src={require(`../images/portfolio/${item.image}`)}
-                      alt={item.name}
-                      style={{ maxWidth: "100%" }}
-                    />;
-                    const mContent = {
-                      title: item.name,
-                      content: content
-                    }
-                    setModalContent(mContent);
+                    setCurrentImage(index);
                   }}
                 />
               </div>

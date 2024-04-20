@@ -42,12 +42,25 @@ body {
   border-color: rgba(150, 150, 150, 0.1);
 }
 
-.modal-dialog{
+.modal-content {
+  background-color: transparent !important;
+  border: none;
+}
+
+.modal-dialog {
   max-width: fit-content !important;
 }
 
-.modal.show .modal-dialog{
-  margin: 1rem auto;
+.modal-content .modal-header {
+  border: none;
+}
+
+.modal-content .modal-header .btn-close {
+  background-color: #ffffff;
+}
+
+.modal.show .modal-dialog {
+  margin: 10rem;
 }
 
 /* ------------------------------------------------------------------ */
@@ -356,11 +369,11 @@ ul.qualifications li {
 }
 
 @media screen and (max-width: 500px) {
-  #about{
+  #about {
     padding: 50px 0;
   }
 
-  .card-slider{
+  .card-slider {
     padding: 50px;
   }
 
@@ -368,14 +381,19 @@ ul.qualifications li {
     padding: 50px;
   }
 
-  #testimonial .testimonial blockquote{
+  #testimonial .testimonial blockquote {
     padding: 30px;
     margin: 0 1rem;
     font-size: 1em;
     line-height: 2rem;
   }
 
-  .testimonial blockquote:before, .testimonial blockquote:after{
+  .testimonial blockquote:before,
+  .testimonial blockquote:after {
     font-size: 50px;
+  }
+
+  .modal.show .modal-dialog {
+    margin: 5rem;
   }
 }

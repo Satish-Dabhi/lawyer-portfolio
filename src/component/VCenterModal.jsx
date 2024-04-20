@@ -1,6 +1,8 @@
 import Modal from 'react-bootstrap/Modal';
 
 export default function VCenterModal(props) {
+    const { children, title } = props;
+
     return (
         <Modal
             {...props}
@@ -8,13 +10,16 @@ export default function VCenterModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
+
             <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    {props.data?.title}
-                </Modal.Title>
+                {title &&
+                    <Modal.Title id="contained-modal-title-vcenter">
+                        {title}
+                    </Modal.Title>
+                }
             </Modal.Header>
             <Modal.Body>
-                {props.data?.content}
+                {children}
             </Modal.Body>
         </Modal>
     );
