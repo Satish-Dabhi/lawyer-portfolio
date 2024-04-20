@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/lawyer-portfolio/static/css/main.4e739db4.css",
-    "main.js": "/lawyer-portfolio/static/js/main.bcceda3e.js",
+    "main.css": "/lawyer-portfolio/static/css/main.2c4b0778.css",
+    "main.js": "/lawyer-portfolio/static/js/main.7b14237d.js",
     "static/media/lawyer-hero-banner.jpg": "/lawyer-portfolio/static/media/lawyer-hero-banner.e0301b22055a29f5c48c.jpg",
     "static/media/Mukta-Regular.ttf": "/lawyer-portfolio/static/media/Mukta-Regular.044d4dd07d7636695eda.ttf",
     "static/media/kerala-article.png": "/lawyer-portfolio/static/media/kerala-article.eea73502ee8d8456c581.png",
+    "static/media/in-logo.svg": "/lawyer-portfolio/static/media/in-logo.138f7dfb57bb6c05af3b0d23b28b6c2c.svg",
     "static/media/veteran-article.png": "/lawyer-portfolio/static/media/veteran-article.dcff9a88959ff09f6944.png",
     "static/media/alm-article.jpg": "/lawyer-portfolio/static/media/alm-article.64e029292f3416741c59.jpg",
     "static/media/private-pressure-article.png": "/lawyer-portfolio/static/media/private-pressure-article.a30ffb427fcd58236d36.png",
@@ -15,17 +16,16 @@
     "static/media/icac.png": "/lawyer-portfolio/static/media/icac.cbba13da5480484ba089.png",
     "static/media/snj-article.webp": "/lawyer-portfolio/static/media/snj-article.cf9b51d953fc13c474d5.webp",
     "static/media/seedfunder.jpg": "/lawyer-portfolio/static/media/seedfunder.9836ddbb0eafbf9292c1.jpg",
-    "static/media/lawyer-logo.svg": "/lawyer-portfolio/static/media/lawyer-logo.7bbafb5a604fd162c4ec7e9e5b63f96d.svg",
     "static/media/slick.svg": "/lawyer-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/lawyer-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/lawyer-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lawyer-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lawyer-portfolio/index.html",
-    "main.4e739db4.css.map": "/lawyer-portfolio/static/css/main.4e739db4.css.map",
-    "main.bcceda3e.js.map": "/lawyer-portfolio/static/js/main.bcceda3e.js.map"
+    "main.2c4b0778.css.map": "/lawyer-portfolio/static/css/main.2c4b0778.css.map",
+    "main.7b14237d.js.map": "/lawyer-portfolio/static/js/main.7b14237d.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e739db4.css",
-    "static/js/main.bcceda3e.js"
+    "static/css/main.2c4b0778.css",
+    "static/js/main.7b14237d.js"
   ]
 }
