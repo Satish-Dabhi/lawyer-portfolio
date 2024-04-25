@@ -1,10 +1,24 @@
 export const bio = {
     name: 'KRUTARTH J. PATCHIGAR',
     qualification: ['B.COM.', 'LL.B.', 'ADVOCATE', 'IMMIGRATION ATTORNEY: CERTIFIED FROM WASHINGTOPN, USA', 'ATC-ICAI, CERTIFIED IN CYBER CRIME LAW'],
-    aboutBio: [
-        "I devise strategies that Fortune 500 companies rely on to address their information and communications technology (ICT) needs. These include tactics for unexpected business changes such as mergers, acquisitions, divestiture– whether within the enterprise or its' vendors–and with disputes. I also perform transactional and regulatory work, customized to reflect the unique and often complex needs and interests of each business.",
-        "This year, I developed short-term and long-term ICT strategies for a Global Fortune 150 retailer to address unexpected compliance obligations from a previous acquisition. I educated the company on possible risks while providing multiple paths to reach their goal.",
-        "Most companies do not consider ICT impacts during a merger or acquisition and divestiture (MAD) event, and their ICT professionals are typically unaware until the event has occurred; I have coordinated successful strategies for companies whether I was brought in before or after a MAD event. Over the past decade, multiple Fortune 500 health care companies relied on my advice post-acquisition or divestiture to consolidate and improve contracts for the expanded organization; others for vendor MAD events.",
+    about: [
+        "I am a Proprietor at Immigration Now. My firm is Engaged in the field of Immigrant & Non-Immigrant visa of USA/Canada/Australia since 3 years and more. Being a qualified Immigration Attorney We strive to provide Best service to the clients which is the reason we have 100 % Visa Approval rate.",
+        "Currently I am serving as a Chairman in Passport Committee & Co-chairman in Consulate Liaison Committee at “The Southern Gujarat Chamber of Commerce and Industries.”"
+    ],
+    proprietorAtImmigrationNow: [
+        "Welcome to Immigration Now, your premier destination for expert immigration services. As the proprietor of Immigration Now, I, KRUTARTH JANAK PATCHIGAR, am committed to providing unparalleled legal support and guidance to individuals, families, and businesses navigating the complex landscape of immigration law.",
+    ],
+    aboutMe: [
+        "With a passion for immigration law and years of experience in the field, I founded Immigration Now to offer personalized and effective solutions to clients facing a wide range of immigration challenges. My dedication to excellence, combined with a deep understanding of immigration policies and procedures, allows me to deliver optimal results for my clients."
+    ],
+    ourMission: [
+        "At Immigration Now, our mission is to empower our clients to navigate the immigration process with confidence and ease. We strive to provide comprehensive legal assistance, strategic counsel, and unwavering support to help individuals achieve their immigration goals."
+    ],
+    whyChooseImmigrationNow: [
+        "Personalized Attention: As the proprietor, I personally handle every case, ensuring that each client receives individualized attention and tailored legal solutions.",
+        "Expertise and Experience: With a proven track record of success, I bring a wealth of knowledge and experience to every case.",
+        "Client-Centered Approach: At Immigration Now, we prioritize the needs and objectives of our clients, fostering open communication, trust, and collaboration throughout the legal process.",
+        "Results-Oriented Advocacy: We are dedicated to achieving favorable outcomes for our clients, whether it’s securing a visa, obtaining permanent residency, or fighting deportation."
     ],
     services: [
         'Passport Service',
@@ -35,11 +49,3 @@ export const contactDetails = {
         address: "Milipitas Blvd, Milpitasn CA 95035"
     },
 };
-
-export const portfolioImages = [
-    { id: 1, name: 'Kerala Article', image: 'kerala-article.png' },
-    { id: 2, name: 'Private Pressure Article', image: 'private-pressure-article.png' },
-    { id: 3, name: 'Snj Article', image: 'snj-article.webp' },
-    { id: 3, name: 'Veteran Article', image: 'veteran-article.png' },
-    { id: 4, name: 'Alm Article', image: 'alm-article.jpg' },
-  ];

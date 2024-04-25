@@ -13,27 +13,33 @@ const AboutUs = () => {
       <div id="about">
         <Fade duration={500}>
           <div className="row">
+
             <div className="text-center">
               <h1 className="section-title pb-4 text-white">About Us</h1>
             </div>
+
+            <h2 className="section-title pb-4 text-white">⍟ <u>Proprietor at Immigration Now</u></h2>
+            {bio.proprietorAtImmigrationNow.map((item, index) => (
+              <p key={index}>{item}</p>
+            ))}
+
+            <h2 className="section-title pb-4 text-white">⍟ <u>About Me</u></h2>
+            {bio.aboutMe.map((item, index) => (
+              <p key={index} className="mb-2">{item}</p>
+            ))}
+
+            <h2 className="section-title pb-4 text-white">⍟ <u>Our Mission</u></h2>
+            {bio.ourMission.map((item, index) => (
+              <p key={index} className="mb-2">{item}</p>
+            ))}
+
+            <h2 className="section-title pb-4 text-white">⍟ <u>Why Choose Immigration Now</u></h2>
             <div className="columns">
-            <ul>
-              {bio.aboutBio.map((item) => (
-                <>
-                  <li className="mb-2">{item}</li>
-                </>
-              ))}
-            </ul>
-            <div>
-              <h1 className="section-title pb-4 text-white">Detail Our Services</h1>
-            </div>
-            <ol>
-              {bio.detailOurServices.map((item) => (
-                <>
-                  <li>{item}</li>
-                </>
-              ))}
-            </ol>
+              <ol>
+                {bio.whyChooseImmigrationNow.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ol>
             </div>
           </div>
         </Fade>

@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className="col-md-7">
                   <div className="contact-wrap w-100 px-8">
                     <script
-                      charset="utf-8"
+                      charSet="utf-8"
                       type="text/javascript"
                       src="//js.hsforms.net/forms/embed/v2.js"
                     ></script>

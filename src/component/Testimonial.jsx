@@ -25,8 +25,8 @@ const Testimonial = () => {
           <Slider {...settings}>
             {testimonialsData &&
               testimonialsData.length > 0 &&
-              testimonialsData.map((testimonial) => (
-                <div class="testimonial">
+              testimonialsData.map((testimonial, index) => (
+                <div className="testimonial" key={index}>
                   <blockquote>
                     {testimonial.quote}
                   </blockquote>

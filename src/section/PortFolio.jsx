@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import Slider from "react-slick";
-import { portfolioImages } from "../data/info";
 import VCenterModal from "../component/VCenterModal";
+import { portfolioImages } from "../data/portfolio";
 
 function PortFolio() {
   const [modalShow, setModalShow] = useState(false);
@@ -14,7 +14,7 @@ function PortFolio() {
     autoplay: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -64,6 +64,7 @@ function PortFolio() {
           {portfolioImages
             .map((item, index) => (
               <div className="justify-content-center d-flex"
+              key={index}
               >
                 <img
                   src={require(`../images/portfolio/${item.image}`)}
@@ -81,6 +82,7 @@ function PortFolio() {
           <Slider {...settings}>
             {portfolioImages.map((item, index) => (
               <div className="justify-content-center d-flex"
+              key={index}
               >
                 <img
                   src={require(`../images/portfolio/${item.image}`)}

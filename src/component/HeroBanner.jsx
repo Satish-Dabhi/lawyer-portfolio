@@ -27,7 +27,7 @@ const HeroBanner = () => {
                                     }} />
                             </h2>
                         </Fade>
-                        <button type="button" class="portfolio-btn mt-5">
+                        <button type="button" className="portfolio-btn mt-5">
                             <Link to="contactinfo" spy={true} smooth={true} offset={10} duration={400}>Book Your Consultation</Link>
                         </button>
                     </div>

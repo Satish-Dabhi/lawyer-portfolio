@@ -47,6 +47,7 @@ function Responsive() {
           <Slider {...settings}>
             {ourClients.map((logo, index) => (
               <div className="justify-content-center d-flex"
+              key={index}
               >
                 <img
                   src={require(`../images/company-logo/${logo.image}`)}
