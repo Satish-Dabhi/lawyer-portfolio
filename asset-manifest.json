@@ -1,20 +1,32 @@
 {
   "files": {
     "main.css": "/lawyer-portfolio/static/css/main.2c4b0778.css",
-    "main.js": "/lawyer-portfolio/static/js/main.7b14237d.js",
+    "main.js": "/lawyer-portfolio/static/js/main.4a06b452.js",
     "static/media/lawyer-hero-banner.jpg": "/lawyer-portfolio/static/media/lawyer-hero-banner.e0301b22055a29f5c48c.jpg",
     "static/media/Mukta-Regular.ttf": "/lawyer-portfolio/static/media/Mukta-Regular.044d4dd07d7636695eda.ttf",
-    "static/media/kerala-article.png": "/lawyer-portfolio/static/media/kerala-article.eea73502ee8d8456c581.png",
+    "static/media/dhabkar-e-passport.jpeg": "/lawyer-portfolio/static/media/dhabkar-e-passport.d4c73fd38d0080f08c02.jpeg",
+    "static/media/green-card-eagle-act.jpeg": "/lawyer-portfolio/static/media/green-card-eagle-act.698d550db1d12f2899f2.jpeg",
+    "static/media/green-card.jpeg": "/lawyer-portfolio/static/media/green-card.971292e98d8f00907bc3.jpeg",
+    "static/media/samruddhi-e-passport.jpeg": "/lawyer-portfolio/static/media/samruddhi-e-passport.f37684af722dfd67d3f1.jpeg",
+    "static/media/lok-tej-article.jpeg": "/lawyer-portfolio/static/media/lok-tej-article.9634db4ae0ed453fd32c.jpeg",
+    "static/media/gujarati-mitra-canada.jpeg": "/lawyer-portfolio/static/media/gujarati-mitra-canada.43422402709ea86f6dca.jpeg",
+    "static/media/sardar-dham-article.jpeg": "/lawyer-portfolio/static/media/sardar-dham-article.ec9747b59618d117accf.jpeg",
+    "static/media/dhabkar-article.jpeg": "/lawyer-portfolio/static/media/dhabkar-article.f13ce411b6ab905bc8ad.jpeg",
+    "static/media/the-blunt-times-gst-article.jpeg": "/lawyer-portfolio/static/media/the-blunt-times-gst-article.6d90ffc6e0473c99d98d.jpeg",
+    "static/media/samruddhi-article.jpeg": "/lawyer-portfolio/static/media/samruddhi-article.08074570e53e0fba55c8.jpeg",
     "static/media/in-logo.svg": "/lawyer-portfolio/static/media/in-logo.138f7dfb57bb6c05af3b0d23b28b6c2c.svg",
-    "static/media/veteran-article.png": "/lawyer-portfolio/static/media/veteran-article.dcff9a88959ff09f6944.png",
-    "static/media/alm-article.jpg": "/lawyer-portfolio/static/media/alm-article.64e029292f3416741c59.jpg",
-    "static/media/private-pressure-article.png": "/lawyer-portfolio/static/media/private-pressure-article.a30ffb427fcd58236d36.png",
+    "static/media/gujarat-mitra.jpeg": "/lawyer-portfolio/static/media/gujarat-mitra.344fe334675b6f9df1d7.jpeg",
+    "static/media/krutarth.png": "/lawyer-portfolio/static/media/krutarth.5e244011a78c1b29918c.png",
+    "static/media/lok-tej-digital-kranti-article.jpeg": "/lawyer-portfolio/static/media/lok-tej-digital-kranti-article.05022c72ad8b87b23c02.jpeg",
+    "static/media/lok-tej-french-article.jpeg": "/lawyer-portfolio/static/media/lok-tej-french-article.b4845d412f0c3be8df6a.jpeg",
+    "static/media/lok-tej-e-passport-article.jpeg": "/lawyer-portfolio/static/media/lok-tej-e-passport-article.7a349474eb8768b99ebd.jpeg",
+    "static/media/tax-val-article.jpeg": "/lawyer-portfolio/static/media/tax-val-article.d1881bf9a08099a769ec.jpeg",
+    "static/media/blunt-times.jpeg": "/lawyer-portfolio/static/media/blunt-times.1ba218031cde7f1c2f72.jpeg",
     "static/media/nbc.jpg": "/lawyer-portfolio/static/media/nbc.55ffc1f8ae7312987df5.jpg",
     "static/media/scandi.png": "/lawyer-portfolio/static/media/scandi.3197f02371e00eaa7ec4.png",
     "static/media/testimonials-bg.jpg": "/lawyer-portfolio/static/media/testimonials-bg.5b61503607beba0d5f6e.jpg",
     "static/media/crepes.jpg": "/lawyer-portfolio/static/media/crepes.2c86a03dc5e13de06ff1.jpg",
     "static/media/icac.png": "/lawyer-portfolio/static/media/icac.cbba13da5480484ba089.png",
-    "static/media/snj-article.webp": "/lawyer-portfolio/static/media/snj-article.cf9b51d953fc13c474d5.webp",
     "static/media/seedfunder.jpg": "/lawyer-portfolio/static/media/seedfunder.9836ddbb0eafbf9292c1.jpg",
     "static/media/slick.svg": "/lawyer-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/lawyer-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -22,10 +34,10 @@
     "static/media/slick.woff": "/lawyer-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lawyer-portfolio/index.html",
     "main.2c4b0778.css.map": "/lawyer-portfolio/static/css/main.2c4b0778.css.map",
-    "main.7b14237d.js.map": "/lawyer-portfolio/static/js/main.7b14237d.js.map"
+    "main.4a06b452.js.map": "/lawyer-portfolio/static/js/main.4a06b452.js.map"
   },
   "entrypoints": [
     "static/css/main.2c4b0778.css",
-    "static/js/main.7b14237d.js"
+    "static/js/main.4a06b452.js"
   ]
 }
